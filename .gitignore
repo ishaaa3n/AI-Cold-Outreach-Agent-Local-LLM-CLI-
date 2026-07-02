@@ -1,0 +1,32 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ── Secrets & credentials (NEVER commit) ────────────────
+.env
+.env.local
+*.pem
+# Config holds the Gmail App Password:
+outreach.yaml
+**/outreach.yaml
+
+# ── Personal / campaign data (private) ──────────────────
+# The whole working folder created by `init` (resume, contacts, config, logs):
+my-outreach/
+# Also catch these anywhere, in case of other campaign folders:
+resume.pdf
+resume.docx
+resume.txt
+*.xlsx
+sent_log.csv
+outbox/
+
+# ── OS / editor ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
