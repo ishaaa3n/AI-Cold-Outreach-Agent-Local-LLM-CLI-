@@ -12,7 +12,7 @@ emails — using a **local Ollama model** (offline, private) and Gmail for sendi
 - **Python 3.11+**
 - **[Ollama](https://ollama.com)** running locally with a model:
   ```bash
-  ollama pull llama3.2:3b        # fast; qwen2.5:7b is better but slower
+  ollama pull llama3.2:3b       
   ```
 - A **Gmail App Password** for sending (https://myaccount.google.com/apppasswords)
 
@@ -21,8 +21,7 @@ emails — using a **local Ollama model** (offline, private) and Gmail for sendi
 ```bash
 # from this folder
 python -m venv .venv
-.venv/Scripts/python.exe -m pip install -r outreach_cli/requirements.txt   # Windows
-# (macOS/Linux: .venv/bin/python -m pip install -r outreach_cli/requirements.txt)
+.venv/Scripts/python.exe -m pip install -r outreach_cli/requirements.txt   
 ```
 
 ## Use it
